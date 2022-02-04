@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(212, 122, 232);
+    font: size 26px;
+    font-size: 3rem;
+    color: #F7F4EA;
+}
+
+body {
+    background-color: rgb(19, 124, 223);
+    color: rgb(127, 161, 88);
+    font-family: 'Monteserrat', sans-serif;
+}
+
+h2 {
+    color: rgb(33, 15, 189);
+    font: size 24px;
+    background-color: #F7F4EA;
+}
+
+h3 p {
+    color: #F7F4EA;
+}
+
+header {
+    background-color: #735CDD;
+    text-align: center;
+    padding: 20px;
+    border: 12px solid rgba(255, 255, 255, 0.);
+    margin: 20px;
+    background-size: cover;
+    background-image: url("../Images/AsrQsk.jpg");
+}
+
+nav {
+    background-color: #568259;
+}
+
+.nav-link {
+    display: block;
+    color: #F7F4EA;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background-color 500ms ease-in-out, color 200ms ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #0E3B43;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+main {
+    color: #B2CEDE;
+    margin: 0 5%;
+    background-color: #735CDD;
+}
+
+
+/* section styles */
+
+.flex-section {
+    display: flex;
+    align-items: center;
+}
+
+.reverse-flex {
+    flex-direction: row-reverse;
+}
+
+.flex-image {
+    width: 50%;
+    padding: 1rem;
+}
+
+.flex-image img {
+    width: 100%;
+}
+
+.flex-image ifrme {
+    width: 100%;
+}
+
+.flex-content {
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #568259;
+}
+
+th:first-child {
+    width: 80%;
+}
+
+tr:nth-child(even) {
+    background-color: #bb198a;
+}
+
+tr:nth-child(odd) {
+    background-color: #0ca139;
+}
+
+th,
+td {
+    padding: 0.5rem;
+}
+
+
+/* section styles */
+
+section {
+    background-color: #0E3B43;
+}
+
+footer {
+    text-align: center;
+    background-color: #6B4E71;
+    color: #B2CEDE;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 426px) {
+    header {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    header h2 {
+        font-size: .7rem;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    .nav-link {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.odd {
+    color: rgb(127, 161, 88);
+}
+
+.even {
+    color: white;
+    background-color: rgb(19, 124, 223);
+}
+
+#section1 {
+    color: #bb198a;
+}
